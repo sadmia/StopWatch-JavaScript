@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>StopWatch Design</title>
+		<meta charset="utf-8">
+		<link rel="stylesheet" type="text/css" href="css/all.min.css">
+		<link rel="stylesheet" type="text/css" href="css/style.css">
+	</head>
+
+	<body>
+
+		<section class="contentSection">
+
+			<h1>Stop Watch App</h1>
+			<div class="roundDiv">
+				<p><span id="time">00:00</span>.<span id="timeMS">00</span></p>
+			</div>
+			<div class="onOffBtn">
+				<button id="btn">
+					<i onclick="clickOn()" id="btnOn" class="fas fa-play"></i>
+					<i onclick="clickOff()" id="btnOff" class="fas fa-fa-solid fa-pause disNone"></i>
+				</button>
+			</div>
+			<div class="resetBtn">
+				<button id="resetBtn">Resat</button>
+			</div>
+
+		</section>
+
+	<script src="js/castom.js"></script>
+	</body>
+</html>
